@@ -1,0 +1,11 @@
+.select {
+  width: 150px;
+}
+
+.controls {
+  display: flex;
+}
+
+.button {
+  margin: 200px;
+}
