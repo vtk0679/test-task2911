@@ -5,7 +5,6 @@ axios.defaults.baseURL = "http://demo1030918.mockable.io/";
 export const apiGetOptions = async () => {
   try {
     const resp = await axios.get("/").then((response) => response);
-    console.log(resp.data);
     return resp.data;
   } catch (error) {
     console.log(error);

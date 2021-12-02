@@ -1,0 +1,31 @@
+.container {
+  margin-left: 50px;
+  width: 250px;
+  height: 700px;
+  overflow: auto;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 1px solid blanchedalmond;
+
+  background-color: rgb(252, 245, 224);
+}
+
+.text {
+  margin: 0;
+  margin-left: 10px;
+}
+
+.list {
+  list-style: none;
+}
+
+.title {
+  text-align: center;
+}
