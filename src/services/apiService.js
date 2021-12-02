@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = "http://demo1030918.mockable.io/";
+axios.defaults.baseURL = "https://demo1030918.mockable.io/";
 
 export const apiGetOptions = async () => {
   try {
